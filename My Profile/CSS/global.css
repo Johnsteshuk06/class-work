@@ -1,3 +1,32 @@
+*{
+    margin: 0;
+}
+
 body {
     background-color: cornflowerblue;
+}
+
+h1 {
+    color: gray;
+}
+
+/* class selectors */
+/* border around my profilfe class */
+.profile{
+    border: solid;
+}
+/* id selectors */
+#maincontainer{
+    padding: 100px;
+    border: solid black;
+    border-style:groove;
+
+}
+
+
+#spaceNeedle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
 }
